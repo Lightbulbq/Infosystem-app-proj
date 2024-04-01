@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RequestDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REQUEST DETAILS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ITEM" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMAGE" />
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/itemLocation"
+        android:layout_width="121dp"
+        android:layout_height="20dp"
+        android:textSize="11sp"
+        android:text="location"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:id="@+id/postDescription"
+        android:layout_width="473dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="65dp"
+        android:text="description"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/itemStatus"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:textSize="15sp"
+        android:text="status"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:id="@+id/requestDate"
+        android:layout_width="72dp"
+        android:layout_height="45dp"
+        android:textSize="15sp"
+        android:text="Date"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="110dp" />
+
+    <TextView
+        android:id="@+id/requestTime"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="time"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="110dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:id="@+id/buttonEditRequest"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

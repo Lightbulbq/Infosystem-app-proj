@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/requestedItem"
+            android:layout_width="473dp"
+            android:layout_height="45dp"
+            android:text="Heading"
+            android:textSize="30sp"
+            android:layout_marginStart="150dp" />
+
+        <TextView
+            android:id="@+id/itemCategory"
+            android:layout_width="121dp"
+            android:layout_height="20dp"
+            android:textSize="11sp"
+            android:text="category"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="45dp"/>
+
+        <TextView
+            android:id="@+id/itemLocation"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:textSize="11sp"
+            android:text="location"
+            android:layout_marginStart="271dp"
+            android:layout_marginTop="45dp"/>
+
+        <TextView
+            android:id="@+id/postDescription"
+            android:layout_width="473dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="65dp"
+            android:text="description"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/itemStatus"
+            android:layout_width="72dp"
+            android:layout_height="45dp"
+            android:textSize="15sp"
+            android:text="status"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="110dp" />
+
+        <TextView
+            android:id="@+id/requestDate"
+            android:layout_width="72dp"
+            android:layout_height="45dp"
+            android:textSize="15sp"
+            android:text="Date"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="110dp" />
+
+        <TextView
+            android:id="@+id/requestTime"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="time"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="294dp"
+            android:layout_marginTop="110dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
